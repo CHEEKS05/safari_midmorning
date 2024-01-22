@@ -1,0 +1,16 @@
+h2{
+    text-align: center;
+    color: deeppink;
+    font-style: italic;
+}
+label{
+    color: #a21ac7;
+    font-style: italic;
+    background-color: pink;
+}
+input , select{
+    color: green;
+    font-style: italic;
+    background-color: lightskyblue;
+    padding: 10px;
+}

@@ -1,0 +1,30 @@
+table{
+    width: 90%;
+    border-collapse: collapse;
+    margin: 15px;
+}
+th{
+    border: 2px solid #631684;
+    padding: 15px;
+    font-size: xx-large;
+    color: #2323d7;
+    align-content: center;
+    font-style: italic;
+}
+td{
+    border: 2px solid #631684;
+    padding: 10px;
+    font-size: medium;
+    color: #a21ac7;
+    font-style: italic;
+}
+h2{
+    color: brown;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: aqua;
+}
+body{
+    background-image: url("");
+}

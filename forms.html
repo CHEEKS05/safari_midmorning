@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/CSS/coding.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forms</title>
+</head>
+<style>
+   body{
+       background-image: url("assets/images/ferrari1.jpg"); background-repeat: no-repeat; background-size: 100%;
+   }
+</style>
+<body>
+<h2>Emobilis Registration Form</h2>
+<hr>
+<form action="">
+    <label for="fname"><b>First Name</b></label>
+    <input type="text" id="fname" name="jina" required placeholder="Enter Name"><br><br>
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" id="lname" name="jina2" required placeholder="Enter Name"><br><br>
+    <label for="email"><b>Email</b></label>
+    <input type="email" id="email" name="barua pepe" required placeholder="Enter Email Address"><br><br>
+    <label for="phone"><b>Mobile No.</b></label>
+    <input type="text" id="phone" name="nambari" required placeholder="Enter Mobile No."><br><br>
+    <label for="female"><b>Female</b></label>
+    <input type="radio" id="female" name="gender">
+    <label for="male"><b>Male</b></label>
+    <input type="radio" id="male" name="gender">
+    <label for="others"><b>Others</b></label>
+    <input type="radio" id="others" name="gender"><br><br>
+    <label for="course"><b>Course Taken</b></label>
+    <select name="course" id="course">
+        <option value="React Js">React Js</option>
+        <option value="Android">Android</option>
+        <option value="Java Script">Java Script</option>
+        <option value="Cyber Security">Cyber Security</option>
+        <option value="Data Science">Data Science</option>
+        <option value="Python">Python</option>
+        <option value="Full Stack">Full Stack</option>
+    </select><br>
+    <br>
+    <label for="upload"><b>Upload Image</b></label>
+    <input type="file" id="upload"><br><br>
+    <label for="dob"><b>Date of Birth</b></label>
+    <input type="date" id="dob" name="tarehe" required placeholder="Enter Date"><br><br>
+    <label for="pass"><b>Password</b></label>
+    <input type="password" id="pass" name="neno siri" required placeholder="Enter Password"><br><br>
+    <input type="submit" value="Register">
+</form>
+</body>
+</html>
